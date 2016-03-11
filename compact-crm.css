@@ -154,3 +154,7 @@ input[type="text"], input[type="password"] {
 .activity-dialog-followup {
     padding-top: 40px;
 }
+
+.twocollbl {
+    padding-top: 7px;
+}
