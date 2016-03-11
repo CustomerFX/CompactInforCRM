@@ -1,3 +1,15 @@
+/* 
+
+Make Infor CRM compact with smaller controls and less wasted screen space
+Copyright 2016 Customer FX Corporation
+customerfx.com
+
+*/
+
+body.inforSoHoXi {
+    font-size: 12px;
+}
+
 .inforSoHoXi .dijitTextBox .dijitInputInner, .inforSoHoXi .dijitValidationTextBox .dijitValidationContainer .inforSoHoXi .dijitTextBox .dijitValidationContainer {
 	height: 1.5pc;
 }
@@ -58,8 +70,8 @@ a .icon_Find_16x16 {
 }
 
 .lookup > img, .lookupDependency > img {
-	right: 28px;
-	top: 4px;
+    right: 23px;
+    top: 5px;
 }
 
 .smCalendarIconTxtBox {
@@ -97,4 +109,32 @@ input[type="text"], input[type="password"] {
 
 .inforSoHoXi .summaryGrid table.dijitComboButton, .inforSoHoXi div[id$=OpportunityDetailscontents] .dijitComboBox {
 	height: 1.5pc;
+}
+
+.textcontrol > .dijitSelect {
+    height: 1.5pc;
+}
+
+.inforSoHoXi .dijitSelectLabel {
+    font-size: 12px;
+}
+
+.dependency .lookupDependency .icon16x16 {
+    position: relative;
+    top: -4px;
+    right: -5px;
+}
+
+.slxbutton {
+    margin: 0px;
+}
+
+.email > img, .person > img {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+
+.inforSoHoXi .dijitSelectMenu td.dijitMenuItemLabel, .dijitComboBoxMenu {
+    font-size: 12px;
 }
