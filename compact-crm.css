@@ -150,3 +150,7 @@ input[type="text"], input[type="password"] {
 .inforSoHoXi .dijitSelectMenu td.dijitMenuItemLabel, .dijitComboBoxMenu {
     font-size: 12px;
 }
+
+.activity-dialog-followup {
+    padding-top: 40px;
+}
