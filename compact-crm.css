@@ -14,6 +14,10 @@ body.inforSoHoXi {
     top: 34px !important;
 }
 
+#borderCenter {
+	background-color: #fff;
+}
+
 #PageTitleText {
     font-size: 20px;
 }
