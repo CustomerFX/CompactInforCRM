@@ -1,0 +1,223 @@
+/* 
+
+Make Infor CRM compact with smaller controls and less wasted screen space
+Copyright 2016 Customer FX Corporation
+customerfx.com
+
+*/
+
+.tws .tws-middle-section-empty .tws-middle-drop-target span {
+    font-size: 12px;
+}
+
+body.inforSoHoXi {
+    font-size: 12px;
+}
+
+#innerBorder {
+    top: 34px !important;
+}
+
+#borderCenter {
+	background-color: #fff;
+}
+
+#PageTitleText {
+    font-size: 20px;
+}
+
+.inforSoHoXi .dijitTextBox .dijitInputInner, .inforSoHoXi .dijitValidationTextBox .dijitValidationContainer .inforSoHoXi .dijitTextBox .dijitValidationContainer {
+	height: 1.5pc;
+}
+
+.lbl {
+	padding-top: 5px;
+}
+
+.textcontrol {
+	margin: 1px 0px;
+	min-height:unset;
+}
+
+.textcontrol.lookup.dropdownlist {
+	height: 1.5pc;
+}
+
+.datepicker>span {
+	height: 1.5pc;
+}
+
+.datepicker .dijitArrowButtonContainer {
+    margin: 4px 0 5px 10px;
+}
+
+.inforSoHoXi .dijitComboBox .dijitArrowButtonInner, .inforSoHoXi .dijitSelect .dijitArrowButtonInner {
+	margin-right: 6px;
+	margin-top: 5px;
+}
+
+.urlcontrol > img {
+	top: 6px;
+	right: 6px;
+}
+
+.textcontrol .lookup input[type="text"] {
+	height: 1.5pc;
+}
+
+.textcontrol .twocolumntextcontrol .lookup input[type="text"] {
+	height: 1.5pc;
+}
+
+input[type="password"] {
+	height: 1.5pc;
+}
+
+input[type="text"], input[type="password"] {
+	height: 1.5pc;
+}
+
+a .icon_Find_16x16 {
+	margin-top: -5px;
+	margin-right: 0px;
+}
+
+.ButtonRight, #MainContent_MainWhatsNew_cmdSearch, .dijitDialog input[type="submit"], .timezone > span > input, input[type="submit"], input[type="button"] {
+	height: 1.8pc;
+}
+
+.user > input,
+.owner > input,
+.lookup > input,
+.lookupDependency > input {
+	height: 1.5pc;	
+}
+
+.lookup > a {
+	top: 4px;
+	right: 6px;
+}
+
+.lookup > img, .lookupDependency > img {
+    right: 23px;
+    top: 5px;
+}
+
+.smCalendarIconTxtBox {
+	margin: 3px 8px;
+}
+
+.inforSoHoXi .dijitButton > .dijitButtonNode {
+	height: 1.8pc;
+	line-height: 1.8pc;
+}
+
+.group-list .task-pane-item-bwrap {
+	line-height: .8em;
+}
+
+.inforSoHoXi .dijitSelectLabel {
+	padding: 6px 0;
+}
+
+input[type="text"], input[type="password"] {
+	font-size: 12px;
+}
+
+.textcontrol TEXTAREA {
+	font-size: 12px;
+}
+
+.inforSoHoXi .dojoxGridCell {
+	padding: 6px 6px !important;
+}
+
+.task-pane-item .dojoxGrid .dojoxGridCell {
+	padding: 8px 6px !important;
+}
+
+.inforSoHoXi .summaryGrid table.dijitComboButton, .inforSoHoXi div[id$=OpportunityDetailscontents] .dijitComboBox {
+	height: 1.5pc;
+}
+
+.textcontrol > .dijitSelect {
+    height: 1.5pc;
+}
+
+.inforSoHoXi .dijitSelectLabel {
+    font-size: 12px;
+}
+
+.dependency .lookupDependency .icon16x16 {
+    position: relative;
+    top: -4px;
+    right: -5px;
+}
+
+.slxbutton {
+    margin: 0px;
+}
+
+.email > img, .person > img {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+
+.inforSoHoXi .dijitSelectMenu td.dijitMenuItemLabel, .dijitComboBoxMenu {
+    font-size: 12px;
+}
+
+.activity-dialog-followup {
+    padding-top: 40px;
+}
+
+.twocollbl {
+    padding-top: 7px;
+}
+
+input, textarea {
+    font-size: 12px !important;
+}
+
+.inforSoHoXi table.is-custom:not(.opt-in) :is(.textcontrol .lookup input[type="text"],input[type="text"]):not(.dijitArrowButtonInner) {
+	height: 1.5pc;
+}
+.inforSoHoXi table.is-custom:not(.opt-in) .dijitTextBox .dijitInputInner {
+	height: 1.5pc;
+}
+
+.inforSoHoXi .abstractGrid .list-panel-tbar {
+    padding-top: 0px;
+}
+
+.inforSoHoXi .dijitTabContainerTop-tabs {
+	font-size: clamp(8px, 12px, 20px);
+}
+
+[id*="ConditionManager-SearchCondition"][id$="fieldName"] {
+	height: 1.5pc !important;
+}
+
+[id*="ConditionManager-SearchCondition"][id$="operators"] {
+	height: 1.5pc !important;
+}
+#ToolBar {
+    line-height: 1.5em;
+}
+
+.quick-speedsearch {
+	height: 1.5pc;
+}
+
+#pastDueButton .dijitButtonContents {
+    height: 1.5pc;
+    margin-top: 0px;
+}
+
+#HelpMenu>.dijitMenuItem {
+    height: 1.5pc; 
+    line-height: 1.5pc;
+
+
+
