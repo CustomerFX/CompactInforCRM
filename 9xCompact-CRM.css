@@ -218,6 +218,10 @@ input, textarea {
 #HelpMenu>.dijitMenuItem {
     height: 1.5pc; 
     line-height: 1.5pc;
+}
 
+.inforSoHoXi table.is-custom:not(.opt-in) .textcontrol:only-child {
+     width: 50%; 
+}
 
 
