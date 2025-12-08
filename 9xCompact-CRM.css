@@ -204,8 +204,12 @@ input, textarea {
 	height: 1.5pc !important;
 }
 
-#ToolBar {
-	line-height: 1.5em;
+#ToolBar, #MainFooter {
+	line-height: 1.5em !important;
+}
+
+#ToolBar span, #MainFooter span {
+	font-size: .9em !important;
 }
 
 .quick-speedsearch {
